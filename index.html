@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Sales Chat App</title>
+</head>
+<body>
+    <section class="user-login">
+        <input type="text" id="username-input" placeholder="Enter your username">
+        <input type="password" id="password-input" placeholder="Enter your password">
+        <button id="login-button">Log In</button>
+    </section>
+
+    <section class="chat-container">
+        <aside class="user-list">
+            <h2>Online Users</h2>
+            <ul id="online-users">
+                <!-- Online users will be displayed here -->
+            </ul>
+        </aside>
+        <div class="messages" id="messages">
+            <!-- Chat messages will be displayed here -->
+        </div>
+        <div class="input-area">
+            <input type="text" id="message-input" placeholder="Type your message...">
+            <input type="file" id="image-input" accept="image/*">
+            <button id="send-button">Send</button>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
